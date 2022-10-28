@@ -16,6 +16,10 @@ moment_list = [tensor.m_rr, tensor.m_tt, tensor.m_pp,
 m = Basemap(projection='cyl', lon_0=origin.longitude, lat_0=origin.latitude,
             resolution='c')
 
+print('hello')
+print('Hello World')
+
+
 m.drawcoastlines()
 m.fillcontinents()
 m.drawparallels(np.arange(-90., 120., 30.))
